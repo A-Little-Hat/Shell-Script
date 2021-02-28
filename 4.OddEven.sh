@@ -1,6 +1,6 @@
-echo "enter the lower limit "
+echo -n "enter the initial range "
 read B
-echo "enter the upper limit "
+echo -n "enter the end range "
 read E
 even=0
 odd=0
@@ -15,5 +15,5 @@ while [ $i -le $E ]
         fi
         i=$(($i+1))
     done
-echo "sum of even = $even"
-echo "sum of odd = $odd"
+echo "the sum of all even numbers between $B and $E is = $even ."
+echo "the sum of all odd numbers between $B and $E is = $odd ."
