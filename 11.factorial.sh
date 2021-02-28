@@ -1,7 +1,7 @@
-echo "Enter a number"
+echo "Enter a number: "
 read num
 if [ $num -gt 20 ]; then
-    echo "out of range"
+    echo " Numerical result out of range."
     exit
     fi
 fact=1
@@ -10,4 +10,4 @@ while [ $num -gt 1 ]
       fact=$((fact * num))
       num=$((num - 1))
     done
-echo $fact
+echo " The factorial of the number $num is $fact ."
