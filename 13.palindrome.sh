@@ -1,9 +1,9 @@
 # n=12321
-echo "enter a number"
+echo "Enter a integer: "
 read n
 rev=$(echo $n | rev)
 if [ $n -eq $rev ]; then
-   echo "Number is palindrome"
+   echo "$n is a palindrome number."
 else
-   echo "Number is not palindrome"
+   echo "$n is not a palindrome number."
 fi
