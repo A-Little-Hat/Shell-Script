@@ -1,3 +1,4 @@
+echo "Here the all combination of 1234 is....."
 for a in 1 2 3 4
     do
         for b in 1 2 3 4 
