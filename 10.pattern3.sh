@@ -1,4 +1,4 @@
-echo "enter the no of row "
+echo " How many rows: "
 read n
 i=1
 while [ $i -le $n ]
