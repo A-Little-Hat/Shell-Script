@@ -9,6 +9,6 @@ echo "b = $b"
 a=$((a+b))
 b=$((a - b))
 a=$((a-b))
-echo "***after swapping***
+echo "***after swapping***"
 echo "a = $a"
 echo "b = $b"
